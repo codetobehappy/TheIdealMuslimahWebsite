@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>
+    The Ideal Muslimah ***interactive***
+</title>
+<style>
+    body{
+        background-color: khaki;
+        font-size: 14pt;
+        font-family: century;
+        text-align: center;
+        width: 70%;
+        margin:auto;
+    }
+    h1{
+        background-color: #e6c206;
+        color:silver;
+        font-size:30pt;
+        width: 50%;
+        margin: auto;
+        padding:0%,25%;
+    }
+    h2{
+        background-color: khaki;
+        font-size:20pt;
+        width: 50%;
+        text-align: center;
+        padding:0,25%;
+        margin:auto;
+    }
+</style>
+</head>
+<body>
+
+    <div class="chp1">
+    
+        <h1> The Ideal Muslimah</h1>
+        <h2>She worships Allah (SWT)(</h2>
+        <p>
+            <h3>Fill In The Blanks</h3>
+            Please select a word from each drop down list
+            to complete the paragraph about the muslim woman.
+        </p>
+        <p> It is no surprise that the true Muslim woman enthusiastically worships her Lord, because she 
+knows that she is
+
+<script>
+function submitAns(changedQuestion) {
+var answer ="";  //declare to store the question number
+
+//first find the number of the question that was changed
+//and assign a variable question to the id of that element
+    if (changedQuestion == 1)
+        answer = document.getElementById("dropdownblank1").value;
+    else if (changedQuestion ==2)
+            answer = document.getElementById("dropdownblank2").value;
+        else if (changedQuestion ==3)
+        answer = document.getElementById("dropdownblank3").value; 
+            else if (changedQuestion ==4)
+            answer = document.getElementById("dropdownblank4").value;
+                else if (changedQuestion ==5)
+                answer = document.getElementById("dropdownblank5").value;
+    
+
+
+//then check if answer is right
+if (changedQuestion ==1 && answer == 1) {
+    document.getElementById("dropdownblank1").disabled=true;
+    alert("You answered the first blank right!");
+}
+
+if (changedQuestion ==2 && answer == 5) {
+    document.getElementById("dropdownblank2").disabled=true;
+    alert("You answered the second blank right!");
+}
+
+if (changedQuestion ==3 && answer == 2) {
+    document.getElementById("dropdownblank3").disabled=true;
+    alert("You answered the third  blank right!");
+}
+if (changedQuestion ==4 && answer == 4) {
+    document.getElementById("dropdownblank4").disabled=true;
+    alert("You answered the fourth blank right!");
+}
+if (changedQuestion ==5 && answer == 3) {
+    document.getElementById("dropdownblank5").disabled=true;
+    alert("You answered the fifth blank right!");
+}
+   
+}//endfunction   
+
+</script>
+<form>
+    <select id="dropdownblank1" onchange="submitAns(1)">
+        <option value=0 selected>none</option>
+    <option value=1>1. obliged</option>
+    <option value=2>2. every</option>
+    <option value=3>3. negligent</option>
+    <option value =4>4. duties</option>
+    <option value =5>5. commandments</option>
+    </select>
+</form>
+to observe all the 
+<form>
+    <select id="dropdownblank2" onchange="submitAns(2)">
+        <option value=0 selected>none</option>
+        <option value=1>1. obliged</option>
+    <option value=2>2. every</option>
+    <option value=3>3. negligent</option>
+    <option value =4>4. duties</option>
+    <option value =5>5. commandments</option>
+        </select>
+</form>
+that Allah (SWT) has enjoined upon 
+<form>
+    <select id="dropdownblank3" onchange="submitAns(3)">
+        <option value=0 selected>none</option>
+        <option value=1>1. obliged</option>
+        <option value=2>2. every</option>
+        <option value=3>3. negligent</option>
+        <option value =4>4. duties</option>
+        <option value =5>5. commandments</option>
+        </select>
+</form>
+
+
+
+Muslim, male or female. So she carries out her Islamic 
+<form>
+    <select id="dropdownblank4" onchange="submitAns(4)">
+        <option value=0 selected>none</option>
+        <option value=1>1. obliged</option>
+        <option value=2>2. every</option>
+        <option value=3>3. negligent</option>
+        <option value =4>4. duties</option>
+        <option value =5>5. commandments</option>
+        </select>
+</form>
+
+properly, without making 
+excuses or compromises, or being 
+<form>
+    <select id="dropdownblank5" onchange="submitAns(5)">
+        <option value=0 selected>none</option>
+        <option value=1>1. obliged</option>
+        <option value=2>2. every</option>
+        <option value=3>3. negligent</option>
+        <option value =4>4. duties</option>
+        <option value =5>5. commandments</option>
+        </select>
+</form>
+. 
+        </p>
+    </div>
+
+
+    <footer>
+        <a href="./index.html">The Ideal Muslimah HOME</a>
+        <br>
+        Updated on October 10, 2022
+        <br>
+        Made in Canada by Lisa Grant
+    </footer>
+</html>
+</body>
+</html>
